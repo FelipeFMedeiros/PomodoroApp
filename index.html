@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PomodoroApp</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1><i class="fa-regular fa-clock"></i> Pomodoro</h1>
+
+            <div class="time-select">
+                <div class="time-option" data-time="15">15 min</div>
+                <div class="time-option active" data-time="25">25 min</div>
+                <div class="time-option" data-time="30">30 min</div>
+                <div class="time-option" data-time="45">45 min</div>
+            </div>
+
+            <div class="timer">25:00</div>
+
+            <div class="controls">
+                <button id="toggle" class="btn">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Start</span>
+                </button>
+                <button id="reset" class="btn btn-reset">
+                    <i class="fa-solid fa-rotate"></i>
+                    <span>Restart</span>
+                </button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
