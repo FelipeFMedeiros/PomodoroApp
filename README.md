@@ -2,6 +2,14 @@
 
 A modern and minimalist Pomodoro timer web application to help you stay focused and productive.
 
+## Demo
+
+Check out the live demo [here](https://felipefmedeiros.github.io/PomodoroApp/).
+
+## Screenshot
+
+![PomodoroApp Screenshot](./screenshot.png)
+
 ## Features
 
 -   Clean and intuitive user interface
